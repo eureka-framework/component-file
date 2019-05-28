@@ -1,0 +1,2 @@
+# component-file
+Filesystem component
