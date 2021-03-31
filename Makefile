@@ -1,6 +1,7 @@
 .PHONY: install update phpcs phpcbf php80compatibility tests testdox ci
 
 PHP_FILES := $(shell find src tests -type f -name '*.php')
+XDEBUG_MODE := coverage
 
 install:
 	composer install
