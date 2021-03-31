@@ -1,0 +1,54 @@
+{
+  "name": "eureka/component-file",
+  "description": "Component file to open, manipulate & write files, or directories.",
+  "type": "library",
+  "license": "MIT",
+  "prefer-stable": true,
+  "homepage": "https://github.com/eureka-framework/component-file",
+  "keywords": [
+    "eureka-component",
+    "file",
+    "directory",
+    "filesystem"
+  ],
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "role": "Developer"
+    }
+  ],
+
+  "support": {
+    "homepage": "https://github.com/eureka-framework/component-file/issues"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Component\\File\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Eureka\\Component\\File\\Tests\\": "tests/"
+    }
+  },
+
+  "config": {
+    "sort-packages": true
+  },
+
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-posix": "*"
+  },
+
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "phpunit/phpcov": "^8.2",
+    "phpunit/phpunit": "^9.5",
+    "squizlabs/php_codesniffer": "^3.5"
+  }
+}
